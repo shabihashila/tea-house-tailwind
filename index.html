@@ -27,6 +27,10 @@
           rgb(221, 230, 236) 0%,
           rgb(251, 252, 254) 70%
         );
+        .extra-pera{
+          background-image: url('./images/cup.png');
+
+        }
       }
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,8 +39,10 @@
       src="https://kit.fontawesome.com/614528e5b9.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
   </head>
-  <body>
+  <body class="container mx-auto">
     <header>
       <div class="lg:flex lg:items-center lg:justify-around">
         <div class="px-10 space-y-4">
@@ -145,7 +151,7 @@
       </section>
       <section>
         <div class="lg:flex px-10 lg:items-center gap-x-16 lg:place-content-center" >
-       <div class="flex gap-14 items-center py-20">
+       <div class="flex gap-14 items-center py-20  ">
           <div class="space-y-8">
           <div class="h-24 w-48 border  bg-gradient-to-r from-red-200 to-red-100 rounded-lg">
             
@@ -158,8 +164,7 @@
           <div class="w-48 border py-6 bg-gradient-to-r from-red-200 to-red-100 rounded-lg">
             <img class="px-5" src="./images/fresh-2.png" alt="">
           </div>
-          <div class=" rounded-lg h-24 w-48 border bg-gradient-to-r from-[#9daaaf]">
-            
+          <div class=" rounded-lg h-24 w-48 border bg-gradient-to-r from-[#9daaaf]">  
           </div>
         </div>
       </div>
@@ -177,7 +182,185 @@
         </div>
       </div>
       </section>
+    <section class="border 8 lg:w-3/4 lg:mx-28 lg:ml-44">
+      <!-- w-3/4 -->
+      <div class="pt-5 lg:flex bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-gradient-to-l justify-center lg:justify-around transition-colors duration-300 hover:from-[#FF7A29] hover:to-[#E60000] rounded-md">
+       <div class="content-center space-y-7 px-14">
+
+        <h1 class="font-extrabold text-white text-5xl">Meet Our Super Clients</h1>
+        <p class="text-base font-medium text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+        <button class="text-xl font-bold text-red-600 border 2 py-2 px-5 rounded-md bg-white hover:bg-gradient-to-r hover:from-red-500 hover:to-orange-500 hover:text-white transition duration-300 ease-in-out">Show All</button>
+        <!-- <div class="lg:absolute lg:bottom-10 lg:left-32 ">
+        <img class="max-sm:opacity-0 opacity-5 h-auto w-44 scale-150 " src="./images/cup.png" alt="">
+      </div> -->
+       </div>
+       <div class="px-14 py-10 relative">
+        <!-- option card -->
+        <div class="relative opacity-50">
+          <span class="absolute -left-6 -top-7">
+            <img class="border-4 rounded-full border-slate-50" src="./images/client.png" alt="">
+          </span>
+          <div class="border 4 bg-white p-7 space-y-2  rounded-md">
+            <p class="text-base font-normal text-slate-500">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+            <h1 class="text-base font-bold">
+              Ilham Yuda
+            </h1>
+            <p class="text-base font-medium text-slate-600">
+              Businessman
+            </p>
+          </div>
+        </div>
+        <!-- main card -->
+        <div class="relative space-y-5 ">
+          <div class="absolute -left-20 pr-24 -top-20 z-50 ">
+          <span class="absolute -left-6 -top-7">
+            <img class="border-4 rounded-full border-slate-50" src="./images/client.png" alt="">
+          </span>
+          <div class="border 4 bg-white    p-7 space-y-2  rounded-md">
+            <p class="text-base font-normal text-slate-500">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+            <h1 class="text-base font-bold">
+              Ilham Yuda
+            </h1>
+            <p class="text-base font-medium text-slate-600">
+              Businessman
+            </p>
+          </div>
+        </div>
+        </div>
+        <!-- option card -->
+        <div class="relative space-y-5 opacity-50">
+          <span class="absolute -left-6 -top-7">
+            <img class="border-4 rounded-full border-slate-50" src="./images/client.png" alt="">
+          </span>
+          <div class="border 4 bg-white    p-7 space-y-2  rounded-md">
+            <p class="text-base font-normal text-slate-500">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+            </p>
+            <h1 class="text-base font-bold">
+              Ilham Yuda
+            </h1 >
+            <p class="text-base font-medium text-slate-600">
+              Businessman
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section>
+      <div class="py-20">
+        <div class="text-center space-y-5">
+      <h1 class="font-extrabold text-5xl">News & Events</h1>
+      <p class="pb-10 font-medium text-base text-slate-400">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet. adipislorem4
+        Lorem ipsum dolor sit amet consectetur adipisicing.<br> Lorem ipsum dolor sit amet. icing elit. Eveniet accusantium eius e</p>
+        </div>
+        <div class="lg:flex lg:justify-center lg:mx-32 lg:pl-12 gap-5 place-content-center ml-10">
+          <!-- first part -->
+          <div class="space-y-6 border 4  flex flex-col p-6 drop-shadow-xl rounded-md ">
+          <img src="./images/news-1.png" alt="">
+          <div class="space-y-6">
+          <p class="font-medium text-base text-current">Feb 05,2024</p>
+          <h1 class="font-extrabold text-xl">Collecting 8 points for discount</h1>
+          <p class="font-medium text-base text-current">There are many variations of passages of Lorem Ipsum available.</p>
+          <p class="pb-5 font-bold text-base"><a href="">learn More</a></p>
+        </div>
+          </div>
+          <!-- second part -->
+          <div class="space-y-6 border 4  flex flex-col rounded-md p-6 drop-shadow-xl">
+          <img src="./images/news-2.png" alt="">
+          <div class="space-y-6">
+            <p class="font-medium text-base text-current">Feb 05,2024</p>
+            <h1 class="font-extrabold text-xl">Collecting 8 points for discount</h1>
+            <p>There are many variations of passages of Lorem Ipsum available.</p>
+            <p class="pb-5 font-bold text-base"><a href="">learn More</a></p>
+          </div>
+          </div>
+          <!-- 3rd part -->
+          <div class="space-y-6  border 4 flex flex-col p-6 rounded-md drop-shadow-xl">
+          <img src="./images/news-3.png" alt="">
+          <div class="space-y-6">
+            <p class="font-medium text-base text-current">Feb 05,2024</p>
+            <h1 class="font-extrabold text-xl">Collecting 8 points for discount</h1>
+            <p>There are many variations of passages of Lorem Ipsum available.</p>
+            <p class="pb-5 font-bold text-base"><a href="">learn More</a></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </main>
-    <footer></footer>
+    <footer class="bg-gradient-to-r from-red-200">
+      <div class="mx-40 lg:flex lg:justify-between pt-24">
+        <img class="w-24 h-24 mb-5" src="./images/cup.png" alt="">
+        <div class="lg:flex lg:items-center  gap-x-10 pb-5">
+          <h1 class="text-xl font-medium text-gray-500 pb-2">Ready to get strated?</h1>
+          <button class="text-xl font-bold text-white p-4 bg-gradient-to-r from-[#FF0000] to-[#FF8939] rounded-lg flex items-center gap-2 transform transition-transform duration-300 hover:scale-105 hover:from-[#FF6347] hover:to-[#FFA07A]">
+            Get started
+          </button>
+        </div>
+      </div>
+      <div  class="mx-40 lg:grid lg:grid-cols-4 py-10">
+        <div class="space-y-8">
+          <h1 class=" pt-5  text-xl font-semibold">quick links</h1>
+          <ul class="text-gray-500 space-y-3 ">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Insurance</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div class="space-y-8">
+          <h1 class=" pt-5  text-xl font-semibold">Our Service</h1>
+          <ul class="space-y-3 text-gray-500">
+            <li>Life Insurance</li>
+            <li>Car Insurance</li>
+            <li>Home Insurance</li>
+            <li>Health Insurance</li>
+          </ul>
+        </div>
+        <div class="space-y-8">
+          <h1 class=" text-xl font-semibold pt-5  " >Help</h1>
+          <ul class="space-y-3 text-gray-500">
+            <li>faq</li>
+            <li>About Us</li>
+           
+          </ul>
+        </div>
+        <div class="space-y-3 relative">
+          <h1 class="text-2xl pt-5 font-semibold ">Subscribe to our newsletter</h1>
+          <label for="email" class="block text-sm font-medium text-gray-500">Email address</label> 
+          <input type="email" id="email" name="email" placeholder="Enter your email" class="mt-2 block w-full border-b-2 border-gray-300 focus:border-orange-500 focus:outline-none py-2 px-3 border 4 bg-neutral-100 border-red-100">
+          <button class="absolute bottom-11 -right-12  bg-gradient-to-r from-orange-400 to-red-500 text-white p-3 rounded-full shadow-lg focus:outline-none ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+          <div class="flex space-x-4">
+            <!-- Facebook -->
+            <a href="https://facebook.com" class="text-blue-600 hover:text-blue-800">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+    
+            <!-- Instagram -->
+            <a href="https://instagram.com" class="text-pink-500 hover:text-pink-700">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+    
+            <!-- Twitter -->
+            <a href="https://twitter.com" class="text-blue-400 hover:text-blue-600">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div class="mx-40 text-center text-gray-500 py-10">
+        <p>&copy 2027 UIDesign.to - All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
